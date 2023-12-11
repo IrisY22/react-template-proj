@@ -1,4 +1,5 @@
 import { bookService } from "../services/book.service.js";
+import { LongTxt } from "../cmps/LongTxt.jsx";
 
 const { useState, useEffect } = React;
 
@@ -36,7 +37,11 @@ export function BookDetails({ bookId, onBack }) {
       <h1 className={priceColor}>book price: {book.listPrice.amount}</h1>
       <h1>Reading Level: {readingLevel}</h1>
       <h1>Publish Time: {publishedDate}</h1>
-      <h1>book description: {book.description}</h1>
+      <h1 className="book-details-info-row">
+        <span className="book-details-info-title">Description:</span>
+        <LongTxt txt={book.description} />
+      </h1>
+
       <button onClick={onBack}>Back</button>
     </section>
   );
