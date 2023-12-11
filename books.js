@@ -13,7 +13,7 @@ const books = [
       "placerat nisi sodales suscipit tellus tincidunt mauris elit sit luctus interdum ad dictum platea vehicula conubia fermentum habitasse congue suspendisse",
     pageCount: 713,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/20.jpg",
+    thumbnail: "./img/1.jpg",
     language: "en",
     listPrice: {
       amount: 109,
@@ -31,7 +31,7 @@ const books = [
       "aliquam pretium lorem laoreet etiam odio cubilia iaculis placerat aliquam tempor nisl auctor",
     pageCount: 129,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/14.jpg",
+    thumbnail: "./img/2.jpg",
     language: "sp",
     listPrice: {
       amount: 44,
@@ -49,7 +49,7 @@ const books = [
       "lorem molestie ut euismod ad quis mi ultricies nisl cursus suspendisse dui tempor sit suscipit metus etiam euismod tortor sagittis habitant",
     pageCount: 972,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/2.jpg",
+    thumbnail: "./img/3.jpg",
     language: "he",
     listPrice: {
       amount: 108,
@@ -68,7 +68,7 @@ const books = [
       "interdum inceptos mauris habitant primis neque tempus lacus morbi auctor cras consectetur euismod vehicula neque netus enim vivamus augue molestie imperdiet tincidunt aliquam",
     pageCount: 303,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/16.jpg",
+    thumbnail: "./img/4.jpg",
     language: "en",
     listPrice: {
       amount: 30,
@@ -86,7 +86,7 @@ const books = [
       "et vehicula faucibus amet accumsan lectus cras nulla cubilia arcu neque litora mi habitasse quis amet augue facilisis sed",
     pageCount: 337,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/12.jpg",
+    thumbnail: "./img/5.jpg",
     language: "sp",
     listPrice: {
       amount: 19,
@@ -105,7 +105,7 @@ const books = [
       "senectus habitant nam imperdiet nostra elit dapibus nisl adipiscing in",
     pageCount: 748,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/1.jpg",
+    thumbnail: "./img/6.jpg",
     language: "en",
     listPrice: {
       amount: 91,
@@ -124,7 +124,7 @@ const books = [
       "nec scelerisque id cursus platea sit ullamcorper bibendum ultrices tempus ante mi aliquet cras tortor dapibus dictum scelerisque",
     pageCount: 65,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/14.jpg",
+    thumbnail: "./img/7.jpg",
     language: "he",
     listPrice: {
       amount: 90,
@@ -142,7 +142,7 @@ const books = [
       "magna quisque venenatis laoreet purus in semper habitant proin pellentesque sed egestas cursus faucibus nam enim id sit mi ligula risus curabitur senectus curabitur sodales fames sem",
     pageCount: 299,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/11.jpg",
+    thumbnail: "./img/8.jpg",
     language: "he",
     listPrice: {
       amount: 176,
@@ -160,7 +160,7 @@ const books = [
       "porttitor nisl sodales id eu tellus venenatis laoreet auctor dictumst nulla",
     pageCount: 803,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/10.jpg",
+    thumbnail: "./img/9.jpg",
     language: "sp",
     listPrice: {
       amount: 116,
@@ -178,7 +178,7 @@ const books = [
       "curabitur bibendum in dolor neque magna phasellus arcu nulla cubilia senectus maecenas ullamcorper neque accumsan facilisis dictumst ornare",
     pageCount: 891,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/5.jpg",
+    thumbnail: "./img/10.jpg",
     language: "en",
     listPrice: {
       amount: 145,
@@ -196,7 +196,7 @@ const books = [
       "auctor amet nostra luctus molestie proin platea cubilia netus sed purus egestas a primis eu tristique interdum litora lorem venenatis mattis senectus",
     pageCount: 86,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/16.jpg",
+    thumbnail: "./img/10.jpg",
     language: "sp",
     listPrice: {
       amount: 157,
@@ -214,7 +214,7 @@ const books = [
       "aenean mauris porta netus accumsan turpis etiam vestibulum vivamus sagittis nullam nec tellus quam mattis est pellentesque nisi litora sit ad",
     pageCount: 882,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/17.jpg",
+    thumbnail: "./img/11.jpg",
     language: "sp",
     listPrice: {
       amount: 57,
@@ -232,7 +232,7 @@ const books = [
       "nec faucibus arcu suspendisse tempus potenti lobortis aliquam quisque augue integer consectetur etiam ultrices curabitur tristique metus",
     pageCount: 598,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/8.jpg",
+    thumbnail: "./img/12.jpg",
     language: "en",
     listPrice: {
       amount: 167,
@@ -250,7 +250,7 @@ const books = [
       "etiam nec aliquam euismod platea vel laoreet quisque condimentum sapien neque ut aliquam torquent in nam",
     pageCount: 608,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/3.jpg",
+    thumbnail: "./img/13.jpg",
     language: "he",
     listPrice: {
       amount: 150,
@@ -268,7 +268,7 @@ const books = [
       "etiam pretium urna fusce lobortis curae viverra aptent metus semper nisi litora feugiat elementum purus nunc consequat lorem ultricies non primis phasellus sociosqu donec dolor",
     pageCount: 583,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/6.jpg",
+    thumbnail: "./img/14.jpg",
     language: "en",
     listPrice: {
       amount: 58,
@@ -287,7 +287,7 @@ const books = [
       "dolor morbi malesuada eleifend purus taciti sit interdum aliquet commodo ut libero tincidunt",
     pageCount: 497,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/7.jpg",
+    thumbnail: "./img/15.jpg",
     language: "en",
     listPrice: {
       amount: 78,
@@ -306,7 +306,7 @@ const books = [
       "rhoncus odio netus consectetur aenean hendrerit massa scelerisque elementum aptent lobortis pharetra maecenas quam nulla volutpat turpis non habitasse aenean ante sodales lobortis quisque libero imperdiet gravida eleifend nulla",
     pageCount: 804,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/10.jpg",
+    thumbnail: "./img/16.jpg",
     language: "en",
     listPrice: {
       amount: 118,
@@ -324,7 +324,7 @@ const books = [
       "himenaeos quis iaculis orci libero egestas quam varius primis erat lacus facilisis blandit dictum tristique interdum litora quisque purus senectus pretium purus",
     pageCount: 231,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/12.jpg",
+    thumbnail: "./img/17.jpg",
     language: "he",
     listPrice: {
       amount: 60,
@@ -342,7 +342,7 @@ const books = [
       "torquent in et id lacus vivamus aptent cursus erat integer venenatis risus ac ante quam etiam euismod feugiat risus suscipit rhoncus pharetra quisque felis",
     pageCount: 652,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/20.jpg",
+    thumbnail: "./img/18.jpg",
     language: "he",
     listPrice: {
       amount: 110,
@@ -361,7 +361,7 @@ const books = [
       "aliquet euismod mi vivamus bibendum donec etiam quisque iaculis ullamcorper est sed",
     pageCount: 904,
     categories: ["Computers", "Hack"],
-    thumbnail: "http://coding-academy.org/books-photos/2.jpg",
+    thumbnail: "./img/19.jpg",
     language: "sp",
     listPrice: {
       amount: 186,

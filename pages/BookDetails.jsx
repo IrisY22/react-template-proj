@@ -32,6 +32,7 @@ export function BookDetails({ bookId, onBack }) {
   if (!book) return <div>Loading...</div>;
   return (
     <section className="book-details">
+      <img src={book.thumbnail} alt="" />
       <h1 className="red">{sale}</h1>
       <h1>book title: {book.title}</h1>
       <h1 className={priceColor}>book price: {book.listPrice.amount}</h1>
