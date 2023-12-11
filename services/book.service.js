@@ -3,6 +3,7 @@ import { storageService } from "./async-storage.service.js";
 import { bookJson } from "../books.js";
 
 const BOOK_KEY = "bookDB";
+const REVIEW_KEY = "reviewDB";
 var gFilterBy = { title: "", price: 0, readingLevel: "" };
 _createBooks();
 
@@ -36,6 +37,13 @@ function query() {
   });
 }
 
+function addReview(bookId, review) {
+  storageService.query(REVIEW_KEY).then((reviews) => {
+    const idx = reviews.findIndex((review) => review.bookId === bookId);
+    reviews[idx].reviews.push(review);
+  });
+}
+
 function filterByLevel(bookLength, level) {
   if (level === "") return true;
   if (level === "100") {
@@ -55,16 +63,32 @@ function remove(bookId) {
   return storageService.remove(BOOK_KEY, bookId);
 }
 
-function save(book) {
-  if (book.id) {
-    return storageService.put(BOOK_KEY, book);
+function save(key, entity) {
+  if (entity.id) {
+    return storageService.put(key, entity);
   } else {
-    return storageService.post(BOOK_KEY, book);
+    return storageService.post(key, entity);
   }
 }
 
 function getEmptyBook(title = "", price = 0) {
-  return { id: "", title, price };
+  return {
+    id: "",
+    title,
+    subtitle: "",
+    authors: [""],
+    publishedDate: 2023,
+    description: "",
+    pageCount: 0,
+    categories: [],
+    thumbnail: "./img/19.jpg",
+    language: "",
+    listPrice: {
+      amount: price,
+      currencyCode: "ILS",
+      isOnSale: false,
+    },
+  };
 }
 
 function getDefaultFilter() {
